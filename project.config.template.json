@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "project": {"name": "作品名_人物蒸馏", "character": "角色名", "aliases": ["别名", "称呼"]},
+  "corpus": {"chapters_dir": "01_语料/chapters", "encoding": "utf-8", "complete": false, "chapter_count": null},
+  "speaker": {"contrast_roles": ["配角1", "配角2"], "exclusive_names": {}},
+  "outputs": {"stats_dir": "02_核验/_stats", "deliverables_dir": "03_交付物", "system_prompt": "03_交付物/角色名_数字人系统提示词_v3.md", "s0_profile": "03_交付物/角色名_专业透视档案.json", "eval_results": "03_交付物/角色名_角色扮演评测结果.json"},
+  "policy": {"strict_speaker_grounding": true, "require_roleplay_eval": true, "allow_arranged_quotes": false}
+}

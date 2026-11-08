@@ -1,0 +1,24 @@
+# Python 缓存与环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# 具体人物蒸馏产物（技能包硬规则：绝不进包）
+*_人物蒸馏/
+*_数字人蒸馏/
+*数字人系统提示词*.md
+01_语料/
+02_核验/
+03_交付物/
+*_stats/
+
+# 本机与临时文件
+*.log
+*.lnk
+.DS_Store
+Thumbs.db
+*.safetensors
+*.ttf
+*.ttc

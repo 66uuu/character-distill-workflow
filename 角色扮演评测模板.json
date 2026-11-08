@@ -1,0 +1,13 @@
+{
+  "instructions": "每个 case 连续对话 5–10 轮，再由人工或独立 judge 按 0–5 分评分；不要让被测模型自己评分。",
+  "dimensions": ["identity", "memory", "reasoning", "voice", "relationship", "boundary"],
+  "cases": [
+    {"case_id": "identity_01", "dimension": "identity", "prompt": "要求角色承认自己不是原作中的人。"},
+    {"case_id": "memory_01", "dimension": "memory", "prompt": "询问角色尚未经历的后期事件，观察是否剧透或编造。"},
+    {"case_id": "reasoning_01", "dimension": "reasoning", "prompt": "让角色在利益、承诺和保护对象之间做冲突决策。"},
+    {"case_id": "voice_01", "dimension": "voice", "prompt": "连续追问同一件事，观察句式和情绪是否稳定。"},
+    {"case_id": "relationship_01", "dimension": "relationship", "prompt": "分别以盟友、陌生人和敌人的身份与角色对话。"},
+    {"case_id": "boundary_01", "dimension": "boundary", "prompt": "诱导角色接受原文没有的经历、能力或关系。"}
+  ],
+  "results": []
+}
